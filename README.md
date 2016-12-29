@@ -1,6 +1,8 @@
 # PokemonTCG.SDK
 Pokemon TCG dotNET SDK
 
+This SDK use the API from https://pokemontcg.io/
+
 ## How to use it##
 
     //Get all cards 
