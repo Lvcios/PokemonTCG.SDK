@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTCG.SDK", "PokemonTCG.SDK\PokemonTCG.SDK.csproj", "{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokemonTCG.SDK.Examples", "PokemonTCG.SDK.Examples\PokemonTCG.SDK.Examples.csproj", "{45486CC8-39C7-4A69-A124-44C9481EF150}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|ARM.Build.0 = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|x64.Build.0 = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Debug|x86.Build.0 = Debug|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|ARM.Build.0 = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|x64.ActiveCfg = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|x64.Build.0 = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|x86.ActiveCfg = Release|Any CPU
+		{C815728F-ADA7-4FE5-9614-F4C67DE2AF88}.Release|x86.Build.0 = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|ARM.Build.0 = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|x64.Build.0 = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Debug|x86.Build.0 = Debug|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|ARM.ActiveCfg = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|ARM.Build.0 = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|x64.ActiveCfg = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|x64.Build.0 = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|x86.ActiveCfg = Release|Any CPU
+		{45486CC8-39C7-4A69-A124-44C9481EF150}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
