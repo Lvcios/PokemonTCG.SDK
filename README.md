@@ -2,7 +2,7 @@
 Pokemon TCG dotNET SDK
 
 This SDK use the API from https://pokemontcg.io/
-You can install it trhought the Package Manager Console (NuGet) by
+You can install it through the Package Manager Console (NuGet) by
     
     Install-Package PokemonTCG.SDK
     
