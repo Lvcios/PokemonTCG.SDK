@@ -14,7 +14,19 @@ namespace PokemonTCG.SDK.Examples
         static void Main(string[] args)
         {
             //Get all cards
-            foreach (Card card in new Cards().Where(name:"pikachu", page:"1", pageSize:"5").All())
+            foreach (Card card in new Cards().All())
+            {
+                Console.WriteLine(string.Format("Id: {4},Name: {0}, Pokedex Number {1}, Abilitie Name:{2}, desc:{3}",
+                    card.name,
+                    card.nationalPokedexNumber,
+                    card.ability != null ? card.ability.name : "",
+                    card.ability != null ? card.ability.text : "",
+                    card.id
+                    ));
+            }
+
+            //Get cards using some filters and pagination
+            foreach (Card card in new Cards().Where(name: "pikachu", page: "1", pageSize: "5").All())
             {
                 Console.WriteLine(string.Format("Id: {4},Name: {0}, Pokedex Number {1}, Abilitie Name:{2}, desc:{3}",
                     card.name,
@@ -37,7 +49,14 @@ namespace PokemonTCG.SDK.Examples
                     ));
 
             //Get all sets
-            foreach(Set set in new Sets().Where(page:"1", pageSize: "5").All())
+            foreach (Set set in new Sets().All())
+            {
+                Console.WriteLine(string.Format("Set Name: {0}, code:{1}, total cards:{2}",
+                    set.name, set.code, set.totalCards));
+            }
+
+            //Get sets using filters and pagination
+            foreach (Set set in new Sets().Where(name:"phantom forces" ,page:"1", pageSize: "5").All())
             {
                 Console.WriteLine(string.Format("Set Name: {0}, code:{1}, total cards:{2}",
                     set.name, set.code, set.totalCards));
